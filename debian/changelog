@@ -1,3 +1,10 @@
+dde-launchpad (2.0.27+debtest1) unstable; urgency=medium
+
+  * Debian testing: relax Build-Depends on libdtk6declarative-dev
+    to >= 6.0.50 for current dtk6 stack compatibility.
+
+ -- Debian Testing DDE Maintainer <debian-testing-dde@users.noreply.github.com>  Mon, 09 Mar 2026 07:15:00 +0800
+
 dde-launchpad (2.0.27) unstable; urgency=medium
 
   * fix: prevent focus issues during mouse wheel page navigation
@@ -296,7 +303,7 @@ dde-launchpad (1.99.14) UNRELEASED; urgency=medium
   * fix: add x-dde-dock-dnd-source for dde-dock.
   * fix: cancel hovered state after move mouse in the categorized display. (Bug-271375)
 
--- Wu Jiangyu <wujiangyu@uniontech.com>  Tue, 13 May 2025 17:17:000 +0800
+-- Wu Jiangyu <wujiangyu@uniontech.com>  Tue, 13 May 2025 17:17:00 +0800
 
 dde-launchpad (1.99.13) UNRELEASED; urgency=medium
 
@@ -307,7 +314,7 @@ dde-launchpad (1.99.13) UNRELEASED; urgency=medium
   * fix: Add quotation marks to the app name in the uninstall dialog (Bug-315259)
   * Update translations from Transifex
 
--- Wu Jiangyu <wujiangyu@uniontech.com>  Fri, 29 May 2025 08:36:000 +0800
+-- Wu Jiangyu <wujiangyu@uniontech.com>  Fri, 29 May 2025 08:36:00 +0800
 
 dde-launchpad (1.99.12) UNRELEASED; urgency=medium
 
@@ -315,7 +322,7 @@ dde-launchpad (1.99.12) UNRELEASED; urgency=medium
   * fix: The title text of launcher application group fontbold
   * Update translations from Transifex
 
--- Wu Jiangyu <wujiangyu@uniontech.com>  Tue, 29 Apr 2025 11:14:000 +0800
+-- Wu Jiangyu <wujiangyu@uniontech.com>  Tue, 29 Apr 2025 11:14:00 +0800
 
 dde-launchpad (1.99.11) UNRELEASED; urgency=medium
 
