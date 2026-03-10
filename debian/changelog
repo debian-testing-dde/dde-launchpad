@@ -1,3 +1,10 @@
+dde-launchpad (2.0.30+debtest6) unstable; urgency=medium
+
+  * models: reset ItemsPageModel when binding the top-level arrangement so
+    QML sees existing launchpad pages on first open.
+
+ -- Hao <hao@example.com>  Tue, 10 Mar 2026 14:42:00 +0800
+
 dde-launchpad (2.0.30+debtest5) unstable; urgency=medium
 
   * models: rebuild fullscreen item arrangement after AppsModel reset so

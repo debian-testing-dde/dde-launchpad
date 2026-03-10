@@ -65,7 +65,9 @@ void ItemsPageModel::setSourceModel(QAbstractItemModel *model)
         m_topLevel->disconnect(SIGNAL(sigPageRemoved(int, int)), this);
     }
 
+    beginResetModel();
     m_topLevel = topLevel;
+    endResetModel();
     qCDebug(logModels) << "Setting new top level page and connecting signals";
     
     connect(m_topLevel, &ItemsPage::sigPageAdded, this, [ this ] (int first, int last) {
