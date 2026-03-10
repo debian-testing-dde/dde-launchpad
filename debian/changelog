@@ -1,3 +1,10 @@
+dde-launchpad (2.0.30+debtest1) unstable; urgency=medium
+
+  * debian/control: relax libdtk6declarative-dev build-dependency to >=
+    6.0.50 for Debian testing DTK stack.
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Tue, 10 Mar 2026 11:13:20 +0800
+
 dde-launchpad (2.0.30) unstable; urgency=medium
 
   * fix: correct mouse event handling area for icon items
