@@ -1,4 +1,4 @@
-dde-launchpad (2.0.30+debtest1) unstable; urgency=medium
+dde-launchpad (2.0.30+debtest3) unstable; urgency=medium
 
   * debian/control: relax libdtk6declarative-dev build-dependency to >=
     6.0.50 for Debian testing DTK stack.
