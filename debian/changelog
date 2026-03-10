@@ -1,3 +1,11 @@
+dde-launchpad (2.0.30+debtest5) unstable; urgency=medium
+
+  * models: rebuild fullscreen item arrangement after AppsModel reset so
+    launchpad pages repopulate when the application manager finishes
+    refreshing.
+
+ -- Hao <hao@example.com>  Tue, 10 Mar 2026 14:23:00 +0800
+
 dde-launchpad (2.0.30+debtest4) unstable; urgency=medium
 
   * qml: drop DciIcon fillMode assignment for DTK 6.7 runtime

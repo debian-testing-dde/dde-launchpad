@@ -297,6 +297,7 @@ ItemArrangementProxyModel::ItemArrangementProxyModel(QObject *parent)
 
     connect(&AppsModel::instance(), &AppsModel::rowsInserted, this, &ItemArrangementProxyModel::onSourceModelChanged);
     connect(&AppsModel::instance(), &AppsModel::rowsRemoved, this, &ItemArrangementProxyModel::onSourceModelChanged);
+    connect(&AppsModel::instance(), &QAbstractItemModel::modelReset, this, &ItemArrangementProxyModel::onSourceModelChanged);
 
     connect(&m_folderModel, &QStandardItemModel::rowsInserted, this, &ItemArrangementProxyModel::onFolderModelChanged);
     connect(&m_folderModel, &QStandardItemModel::rowsRemoved, this, &ItemArrangementProxyModel::onFolderModelChanged);
