@@ -285,7 +285,6 @@ Control {
                         scale: (iconContainer.width / root.maxIconSize) * root.iconScaleFactor
                         palette: DTK.makeIconPalette(root.palette)
                         theme: ApplicationHelper.DarkType
-                        fillMode: Image.PreserveAspectFit
                     }
                 }
             }

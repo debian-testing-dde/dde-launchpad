@@ -1,3 +1,10 @@
+dde-launchpad (2.0.30+debtest4) unstable; urgency=medium
+
+  * qml: drop DciIcon fillMode assignment for DTK 6.7 runtime
+    compatibility on Debian testing.
+
+ -- Hao <hao@example.com>  Tue, 10 Mar 2026 14:05:00 +0800
+
 dde-launchpad (2.0.30+debtest3) unstable; urgency=medium
 
   * debian/control: relax libdtk6declarative-dev build-dependency to >=
